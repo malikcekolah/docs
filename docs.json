@@ -9,6 +9,28 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Cekolah.com",
+          "icon": "book-open-cover",
+          "color": {
+            "light": "#f805ff",
+            "dark": "#f805ff"
+          },
+          "href": "https://cekolah.com"
+        },
+        {
+          "anchor": "Video Tutorial",
+          "icon": "newspaper",
+          "color": {
+            "light": "#ff0000",
+            "dark": "#ff0000"
+          },
+          "href": "https://www.youtube.com/@cekolahcom"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -20,6 +42,10 @@
               "quickstart",
               "development"
             ]
+          },
+          {
+            "group": "Masuk aplikasi",
+            "pages": []
           },
           {
             "group": "Customization",
@@ -66,22 +92,19 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "PPDB",
+        "groups": [
+          {
+            "group": "Admin",
+            "pages": [
+              "pembuatan-ppdb"
+            ]
+          }
+        ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
